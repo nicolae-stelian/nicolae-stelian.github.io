@@ -55,6 +55,33 @@ h1 {
     word-spacing: 4px;
     letter-spacing: 1px;
 }
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #2980b9;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+section {
+    padding: 80px 0;
+}
+
 .hero-text-box {
     position: absolute;
     width: 1140px;
@@ -64,6 +91,25 @@ h1 {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+/* ----- PARAGRAPHS ----- */
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+/* ----- ICONS ----- */
+
+
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
 
 /* ----- BUTTONS ----- */
 .btn:link,
