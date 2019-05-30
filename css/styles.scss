@@ -1,0 +1,67 @@
+// How to ? (https://sass-lang.com)
+// npm install -g sass
+//  sass css/styles.scss css/custom.css
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$background-dark: #ccc;
+
+
+@mixin zero-margin($pad-up-dn, $pad-left-right) {
+  margin:0px auto;
+  padding: $pad-up-dn $pad-left-right;
+}
+
+.row-header {
+  @include zero-margin(0px,0px);
+}
+
+.row-content {
+  @include zero-margin(50px,0px);
+  border-bottom: 1px ridge;
+  min-height:400px;
+}
+
+.jumbotron {
+  @include zero-margin(70px,30px);
+  //background: #555555;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/plane.jpg);
+  color:floralwhite;
+}
+
+.navbar-dark {
+  background: #183961;
+  //background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/img/menu.jpg);
+}
+
+.footer {
+  background-color: $background-dark;
+  @include zero-margin(20px, 0px);
+}
+
+
+
+address {
+  font-size:80%;
+  margin:0px;
+  color:#0f0f0f;
+}
+
+body {
+  padding:50px 0px 0px 0px;
+  z-index:0;
+}
+
+
+//.tab-content {
+//  border-left: 1px solid $lt-gray;
+//  border-right: 1px solid $lt-gray;
+//  border-bottom: 1px solid $lt-gray;
+//  padding: 10px;
+//}
+

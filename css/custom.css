@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/plane.jpg);
+  color: floralwhite;
+}
+
+.navbar-dark {
+  background: #183961;
+}
+
+.footer {
+  background-color: #ccc;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
+}
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+}
+
+/*# sourceMappingURL=custom.css.map */

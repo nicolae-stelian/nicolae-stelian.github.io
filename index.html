@@ -1,89 +1,192 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-		<link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-		<link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
 
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,300italic,400,600,700" rel="stylesheet">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+    <link rel="stylesheet" href="/css/custom.css" />
 
-		<title>Nicolae-Stelian Astefanoaie</title>
-	</head>
-	<body>
-		<header>
-			<nav>
-				<div class="row">
-					<ul class="main-nav js--main-nav">
-						<li><a href="#coding_skils">Coding skills</a></li>
-						<li><a href="#experience">Experience</a></li>
-						<li><a href="#education">Education</a></li>
-						<li><a href="#projects">Projects</a></li>
-						<li><a href="#about">About</a></li>
-					</ul>
-				</div>
-			</nav>
-			<div class="hero-text-box">
-				<h1>Nicolae-Stelian<br>Software developer.</h1>
-				<a class="btn btn-full" href="https://www.linkedin.com/in/nicolae-stelian/" target="_blank">Linkedin</a>
-				<a class="btn btn-full" href="https://github.com/nicolae-stelian" target="_blank">Github</a>
-			</div>
-			
-		</header>
+    <title>Nicolae Stelian Astefanoaie</title>
+</head>
 
+<body>
 
-		        
-        <section class="section-features">
-			<div class="row">
-				<h2> No perfection, only improved versions </h2>
-				<p class="long-copy">
-					I enjoy coding, learning, reading book and viewing courses. Working as software developer the bugs are part of my live.
-					Write test, fix the bug, create new feature that almost always change is my daily work. 
+<nav class="navbar navbar-dark navbar-expand-sm fixed-top ml-auto">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-				</p>
-			</div>
+        <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="#">
+                    <span class="fa fa-home fa-lg"></span> Home
+                </a></li>
+                <li class="nav-item "><a class="nav-link" href="#">
+                    <span class="fas fa-wrench fa-lg"></span> Coding skills
+                </a></li>
+                <li class="nav-item"><a class="nav-link" href="#">
+                    <span class="fas fa-cubes fa-lg"></span> Experience
+                </a></li>
+                <li class="nav-item"><a class="nav-link" href="#">
+                    <span class="fas fa-graduation-cap fa-lg"></span> Education
+<!--                    <span class="fas fa-graduation-cap fa-lg"></span> Education-->
+                </a></li>
+                <li class="nav-item"><a class="nav-link" href="#">
+                    <span class="fas fa-tasks fa-lg"></span> Projects
+                </a></li>
+                <li class="nav-item"><a class="nav-link" href="#">
+                    <span class="fa fa-address-card fa-lg"></span> Contact
+                </a></li>
+            </ul>
 
+        </div>
+    </div>
+</nav>
 
-			<div class="row js--wp-1">
-                <div class="col span-1-of-4 box">
-					
-					<i class="ion-ios-heart-outline icon-big"></i>
-                    <h3>Algorithms</h3>
-                    <p>
-						Algorithms are the heart of computer science. 
-						I play with alghoritms in javascript and the using of graph, dfs, bfs and more example can be accesed 
-						<a href="https://github.com/nicolae-stelian/alghoritms" target="_blank">here.</a>
-						
+<header class="jumbotron">
+    <div class="container">
+        <div class="row row-header">
+            <div class="col-12 col-sm-12">
+                <h1>Nicolae Stelian - developer</h1>
+                <p>
+                    I enjoy coding, learning, reading book and viewing courses.
+                    Working as software developer the bugs are part of my live.
+                    Write test, fix the bug, create new feature that almost always change is my daily work.
+                </p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- add classes container to div-->
+<div class="container">
+
+    <div class="row row-content align-items-center">
+        <div class="col-12 col-sm-4 order-sm-last col-md-3"> <!-- check col md -->
+            <h3>Our Lipsmacking Culinary Creations</h3>
+        </div>
+
+        <div class="col col-sm order-sm-first col-md">
+            <div class="media">
+                <img class="d-flex mr-3 img-thumbnail align-self-center"
+                     src = "img/uthappizza.png" alt="uthappizza"
+                >
+                <div class="media-body">
+                    <h2 class="mt-0">
+                        Uthappizza
+                        <span class="badge badge-danger">HOT</span>
+                        <span class="badge badge-pill badge-secondary">$4.99</span>
+
+                    </h2>
+                    <p class="d-none d-sm-block">A unique combination of
+                        Indian Uthappam (pancake) and
+                        Italian pizza, topped with Cerignola olives, ripe
+                        vine cherry tomatoes, Vidalia onion, Guntur chillies and
+                        Buffalo Paneer.
                     </p>
                 </div>
-                <div class="col span-1-of-4 box">
-                    <i class="ion-ios-infinite-outline icon-big"></i>
-                    <h3>Courses</h3>
-                    <p>
-                        I have successfully finish algorithms specialization from Coursera with instructor Tim Roughgarden.
-                    </p>
-                </div>
-                <div class="col span-1-of-4 box">
-                    <i class="ion-ios-box-outline icon-big"></i>
-                    <h3>Object-oriented</h3>
-                    <p>
-                        Some small games application like parking lot, restaurant reservation system can be acccesed here. 
-                    </p>
-                </div>
-                <div class="col span-1-of-4 box">
-                    <i class="ion-ios-lightbulb-outline icon-big"></i>
-                    <h3>Examples</h3>
-                    <p>
-						An api example,  some small contribution in symfony documentation, detect some bugs in aws sdk and <a href="#">more</a>.
-                    </p>
-                </div>
-            </div>   
-
-		</section>
+            </div>
+        </div>
+    </div>
 
 
-	</body>
+    <!-- add classes row, col-sm-6-->
+    <div class="row row-content align-items-center">
+        <div class="col-12 col-sm-4 col-md-3">
+            <h3>This Month's Promotions</h3>
+        </div>
+
+        <div class="col col-sm col-md">
+            <div class="media">
+                <div class="media-body">
+                    <h2 class="mt-0">
+                        Weekend Grand Buffet
+                        <span class="badge badge-danger">NEW</span>
+                    </h2>
+
+                    <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of
+                        five different salads, six enticing appetizers, six main entrees and
+                        five choicest desserts. Free flowing bubbly and soft drinks.
+                        All for just $19.99 per person
+                    </p>
+                </div>
+
+                <img class="d-flex ml-3 img-thumbnail align-self-center float-right"
+                     src = "img/buffet.png" alt="Promotions"
+                >
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-content align-items-center">
+        <div class="col-12 col-sm-4 order-sm-last col-md-3">
+            <h3>Meet our Culinary Specialists</h3>
+        </div>
+
+        <div class="col col-sm order-sm-first col-md">
+            <div class="media">
+                <img class="d-flex mr-3 align-self-center img-thumbnail"
+                     src="img/alberto.png" alt="alberto"
+                >
+                <div class="media-body">
+                    <h2> Alberto Somayya</h2>
+                    <h4>Executive Chef</h4>
+                    <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
+                        International experience having worked closely with
+                        whos-who in the culinary world, he specializes in
+                        creating mouthwatering Indo-Italian fusion experiences.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 offset-1 col-sm-2">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+
+            <div class="col-12 col-sm-4 align-self-center">
+                <div class="text-center">
+                    <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/nicolae-stelian/">
+                        <i class="fab fa-linkedin fa-lg"></i>
+                    </a>
+                    <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/stelu26">
+                        <i class="fab fa-twitter fa-lg"></i>
+                    </a>
+                    <a class="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCsaVQ6GmKvSiiNT4Cco_8fg">
+                        <i class="fab fa-youtube fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+
+<!--
+    TASK1: include javascript for bootstrap components
+-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</body>
 
 </html>
-
