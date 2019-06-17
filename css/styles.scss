@@ -24,7 +24,7 @@ $background-dark: #ccc;
 .row-content {
   @include zero-margin(50px,0px);
   border-bottom: 1px ridge;
-  min-height:400px;
+  min-height:150px;
 }
 
 .jumbotron {
