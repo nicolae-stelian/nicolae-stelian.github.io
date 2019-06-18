@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+
+    <link rel="stylesheet" href="/css/custom.css" />
+
+    <title>Nicolae Stelian Astefanoaie</title>
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark navbar-expand-sm fixed-top ml-auto">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="#">
+                    <span class="fa fa-home fa-lg"></span> Home
+                </a></li>
+                <li class="nav-item "><a class="nav-link" href="/skills.html">
+                    <span class="fas fa-wrench fa-lg"></span> Coding skills
+                </a></li>
+                <li class="nav-item"><a class="nav-link" href="/experience.html">
+                    <span class="fas fa-cubes fa-lg"></span> Experience
+                </a></li>
+                <li class="nav-item"><a class="nav-link" href="/education.html">
+                    <span class="fas fa-graduation-cap fa-lg"></span> Education
+                    <!--                    <span class="fas fa-graduation-cap fa-lg"></span> Education-->
+                </a></li>
+                <li class="nav-item"><a class="nav-link" href="/projects.html">
+                    <span class="fas fa-tasks fa-lg"></span> Projects
+                </a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact.html">
+                    <span class="fa fa-address-card fa-lg"></span> Contact
+                </a></li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+
+<!-- add classes container to div-->
+<div class="container">
+
+    <div class="row row-content align-items-center">
+
+        <div class="col col-sm order-sm-first col-md">
+            <div class="media row">
+                <div class="media-body order-sm-0">
+                    <h2 class="mt-0">
+                        Restaurant reservation system
+                    </h2>
+                    <p class="d-none d-sm-block">
+                        for this kind of problems first identify the problem entities:
+                        ---- Problem State
+                        1. in a restaurent there are different tables (say x in no) of different capacities .
+                        2 .we can book a table of capacity n for m people (m<=n);
+                        3. a table can be booked only if there is suitable time difference between two bookings
+                        4. booking can be done only for particular no of hours for which restaurent opens
+
+                        <a href="tests.html" class="text-info" target="_blank">
+                            Run tests
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="col col-sm col-md">
+                <div class="media row">
+                    <div class="media-body order-sm-0">
+                        <h2 class="mt-0">
+                            define input -> select a datetime, person numbers minutes number.
+                        </h2>
+
+
+
+                        Date:
+                        <input id="datepicker" width="276" />
+                        Hour:
+                        <input type="number" min="0" max="23" />
+                        Minute:
+                        <input type="number" min="0" max="59" />
+
+                        Duration in minutes:
+                        <input type="number" min="30" max="300" />
+
+                        Table size:
+                        <select>
+                            <option>2</option>
+                            <option>4</option>
+                            <option>6</option>
+                            <option>8</option>
+                        </select>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 offset-1 col-sm-2">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/resume/resume.pdf">Resume</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+
+            <div class="col-12 col-sm-4 align-self-center">
+                <div class="text-center">
+                    <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/nicolae-stelian/">
+                        <i class="fab fa-linkedin fa-lg"></i>
+                    </a>
+                    <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/stelu26">
+                        <i class="fab fa-twitter fa-lg"></i>
+                    </a>
+                    <a class="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCsaVQ6GmKvSiiNT4Cco_8fg">
+                        <i class="fab fa-youtube fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+
+<!--
+    TASK1: include javascript for bootstrap components
+-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+
+
+<script>
+    $('#datepicker').datepicker({
+        uiLibrary: 'bootstrap4',
+        minDate: new Date(),
+        format: 'yyyy-mm-dd',
+        weekStartDay: 1
+    });
+</script>
+
+</body>
+
+</html>
